@@ -13,8 +13,8 @@ os.environ["AWS_ACCESS_KEY_ID"] = DC_AWS_ACCESS_KEY_ID
 os.environ["AWS_SECRET_ACCESS_KEY"] = DC_AWS_SECRET_ACCESS_KEY
 os.environ["AWS_DEFAULT_REGION"] = DC_AWS_DEFAULT_REGION
 
-# Variables
-USER_EMAIL = 'chris.ramakers@datacamp.com'
+# Replace this with the email of the user you want to query
+USER_EMAIL = 'john.doe@acme.com'
 
 # Instantiate library
 dc = DataConnector()
